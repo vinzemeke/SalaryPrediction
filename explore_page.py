@@ -1,14 +1,15 @@
-from operator import index
-from matplotlib.style import use
-import streamlit as st
+import math
 import pickle
+from operator import index
+
 import numpy as np
 import pandas as pd
-from st_aggrid import AgGrid
 import plotly.express as px
-from predict_page import predict
-import math
+import streamlit as st
+from matplotlib.style import use
+from st_aggrid import AgGrid
 
+from predict_page import predict
 
 st.set_page_config(layout="wide")
 
